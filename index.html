@@ -1,0 +1,615 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>NIKA CAKES · Десерты Вероники Бовшис · Минск</title>
+<meta name="description" content="Макарон, торты на заказ, трюфели и зефир ручной работы от кондитера Вероники Бовшис. Минск, доставка и самовывоз.">
+<meta name="theme-color" content="#140C08">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@400;500;600;700&family=Marck+Script&display=swap">
+<link rel="stylesheet" href="assets/css/styles.css">
+<script>
+  (function (d) {
+    d.classList.add('js');
+    try { if (sessionStorage.getItem('nc-splash')) d.classList.add('splash-seen'); } catch (e) {}
+    setTimeout(function () { d.classList.add('is-ready'); }, 4000);
+  })(document.documentElement);
+</script>
+<script src="assets/js/app.js" defer></script>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-ig" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="1.1" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></symbol>
+  <symbol id="i-send" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 3 10 14"/><path d="M21 3l-6.5 18-4-8-8-4z"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></symbol>
+  <symbol id="i-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+  <symbol id="i-truck" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M3 6h11v10H3zM14 9h4l3 3v4h-7"/><circle cx="7" cy="17.5" r="1.8"/><circle cx="17" cy="17.5" r="1.8"/></symbol>
+  <symbol id="i-bag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M5 8h14l-1 12H6z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+  <symbol id="i-at" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-4 8"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"/></symbol>
+</svg>
+
+<!-- Заставка: светящийся логотип, один раз за сеанс -->
+<div class="splash" id="splash" aria-hidden="true">
+  <img class="splash__glow" src="assets/img/logo-glow.jpg" alt="">
+  <button class="splash__skip" type="button" tabindex="-1">Пропустить</button>
+</div>
+
+<header class="header" id="header">
+  <div class="topbar">
+    <div class="container topbar__in">
+      <a class="topbar__item" href="tel:+375445769358"><svg class="i"><use href="#i-phone"/></svg><span>+375 (44) 576-93-58</span></a>
+      <span class="topbar__item"><svg class="i"><use href="#i-pin"/></svg>Минск, ул. Кульман, 21б</span>
+      <span class="topbar__item"><svg class="i"><use href="#i-truck"/></svg>Доставка по Минску и самовывоз</span>
+      <a class="topbar__item topbar__ig" href="https://www.instagram.com/nika_cakes_/" target="_blank" rel="noopener"><svg class="i"><use href="#i-ig"/></svg>@nika_cakes_</a>
+    </div>
+  </div>
+  <div class="container bar">
+    <a class="brand" href="#top" aria-label="NIKA CAKES — наверх">
+      <img class="brand__mark" src="assets/img/mark-cream.png" alt="">
+      <img class="brand__word" src="assets/img/wordmark-cream.png" alt="NIKA CAKES">
+    </a>
+    <nav class="nav" id="nav" aria-label="Разделы сайта">
+      <ul class="nav__list">
+        <li><a href="#about">О себе</a></li>
+        <li><a href="#desserts">Десерты</a></li>
+        <li><a href="#holidays">Праздники</a></li>
+        <li><a href="#fillings">Начинки</a></li>
+        <li><a href="#how">Как заказать</a></li>
+        <li><a href="#gallery">Галерея</a></li>
+        <li><a href="#contacts">Контакты</a></li>
+      </ul>
+      <div class="nav__extra">
+        <a class="btn btn--gold btn--block" href="#order">Оставить заявку</a>
+        <a class="nav__contact" href="https://ig.me/m/nika_cakes_" target="_blank" rel="noopener"><svg class="i"><use href="#i-send"/></svg>Написать в Direct</a>
+        <p class="nav__contact"><svg class="i"><use href="#i-pin"/></svg>Минск, ул. Кульман, 21б</p>
+      </div>
+    </nav>
+    <div class="bar__actions">
+      <a class="icon-btn" href="https://www.instagram.com/nika_cakes_/" target="_blank" rel="noopener" aria-label="Instagram"><svg class="i"><use href="#i-ig"/></svg></a>
+      <a class="btn btn--gold btn--sm bar__cta" href="#order">Заказать</a>
+      <button class="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- Первый экран -->
+  <section class="hero" id="top">
+    <picture class="hero__media">
+      <source media="(min-width: 900px)" srcset="assets/img/photos/hero-desktop-sm.webp 800w, assets/img/photos/hero-desktop-lg.webp 1600w" sizes="100vw">
+      <img src="assets/img/photos/hero-mobile-sm.webp" srcset="assets/img/photos/hero-mobile-sm.webp 800w, assets/img/photos/hero-mobile-lg.webp 1600w" sizes="100vw" alt="Кондитер Вероника Бовшис" fetchpriority="high">
+    </picture>
+    <div class="hero__shade"></div>
+    <div class="container hero__content">
+      <p class="eyebrow" style="--i:0">Кондитер · Минск</p>
+      <h1 class="hero__title" style="--i:1">Десерты, которые<br><em>хочется запомнить</em></h1>
+      <p class="hero__sub" style="--i:2">Макарон, торты, трюфели и зефир ручной работы от Вероники Бовшис</p>
+      <div class="hero__cta" style="--i:3">
+        <a class="btn btn--gold" href="#order">Заказать десерт</a>
+        <a class="btn btn--ghost" href="#desserts">Смотреть десерты</a>
+      </div>
+    </div>
+    <a class="today" href="https://www.instagram.com/stories/highlights/17966386238870024/" target="_blank" rel="noopener">
+      <span class="today__dot" aria-hidden="true"></span>
+      <span class="today__text"><b>Нужен десерт сегодня?</b><span>Посмотрите, что есть в наличии</span></span>
+      <span class="today__go">Смотреть<svg class="i"><use href="#i-arrow"/></svg></span>
+    </a>
+  </section>
+
+  <!-- Вступление -->
+  <section class="intro section section--choc">
+    <div class="container intro__in reveal">
+      <img class="intro__mark" src="assets/img/mark-cream.png" alt="">
+      <h2 class="h2 h2--caps">NIKA CAKES — кондитерская ручной работы</h2>
+      <p>Макарон, торты, трюфели и зефир для праздников, подарков и тех обычных дней, которые хочется сделать особенными. Каждый десерт я готовлю сама, небольшими партиями и под ваш заказ, и упаковываю так, чтобы подарок было приятно открыть ещё до первого кусочка.</p>
+    </div>
+  </section>
+
+  <!-- О Веронике -->
+  <section class="about section" id="about">
+    <div class="container about__grid">
+      <div class="about__media reveal">
+        <figure class="about__main">
+          <img src="assets/img/photos/about-1-sm.webp" srcset="assets/img/photos/about-1-sm.webp 800w, assets/img/photos/about-1-lg.webp 1600w" sizes="(min-width: 900px) 40vw, 80vw" alt="Вероника Бовшис в кондитерском кителе" loading="lazy" decoding="async" width="800" height="1000">
+        </figure>
+        <figure class="about__second">
+          <img src="assets/img/photos/about-2-sm.webp" srcset="assets/img/photos/about-2-sm.webp 800w, assets/img/photos/about-2-lg.webp 1600w" sizes="(min-width: 900px) 20vw, 40vw" alt="Вероника на кухне" loading="lazy" decoding="async" width="800" height="1000">
+        </figure>
+        <div class="badge" aria-hidden="true">
+          <svg class="badge__ring" viewBox="0 0 200 200">
+            <defs><path id="badge-circle" d="M100,100 m-76,0 a76,76 0 1,1 152,0 a76,76 0 1,1 -152,0"/></defs>
+            <text><textPath href="#badge-circle" textLength="470" lengthAdjust="spacing">NIKA CAKES · С ЛЮБОВЬЮ К ДЕТАЛЯМ · МИНСК ·</textPath></text>
+          </svg>
+          <img class="badge__mark" src="assets/img/mark-brown.png" alt="">
+        </div>
+      </div>
+      <div class="about__text reveal" style="--d:120ms">
+        <p class="eyebrow">Обо мне</p>
+        <h2 class="h2">Привет, я Вероника</h2>
+        <p class="about__lead">Я кондитер из Минска, жена и мама двоих детей. Делаю десерты на заказ и в наличии, так что попробовать их можно каждый день: макарон, торты, трюфели и зефир.</p>
+        <p>Постоянно учусь у профессионалов, офлайн и онлайн, и пробую десерты везде, где бываю. А ещё веду проект «Научи свои десерты позировать»: помогаю кондитерам снимать фото и видео, от которых хочется сделать заказ.</p>
+        <ul class="stats">
+          <li><b data-count="1000">1 000</b><span>трюфелей в&nbsp;одном заказе</span></li>
+          <li><b data-count="7000">7 000</b><span>подписчиков в&nbsp;Instagram</span></li>
+          <li><b data-count="4">4</b><span>вида десертов ручной работы</span></li>
+        </ul>
+        <p class="signature">Вероника</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Десерты -->
+  <section class="desserts section section--cream2" id="desserts">
+    <div class="container section-head reveal">
+      <p class="eyebrow">Ассортимент</p>
+      <h2 class="h2">Что я готовлю</h2>
+      <p class="lead">Четыре направления, в каждом свои сезонные вкусы. Выберите, с чего начать.</p>
+    </div>
+    <div class="tiles">
+      <a class="tile reveal" href="#order" data-product="Макарон">
+        <img src="assets/img/photos/cat-macaron-sm.webp" srcset="assets/img/photos/cat-macaron-sm.webp 800w, assets/img/photos/cat-macaron-lg.webp 1600w" sizes="(min-width: 900px) 25vw, 80vw" alt="Макарон разных вкусов на подносе" loading="lazy" decoding="async" width="800" height="1000">
+        <div class="tile__box">
+          <h3>Макарон</h3>
+          <div class="tile__more"><div>
+            <p>Хрустящие снаружи, нежные внутри. Классические и сезонные вкусы, соберу любое количество.</p>
+            <span class="tile__price">8 BYN за штуку</span>
+          </div></div>
+        </div>
+      </a>
+      <a class="tile reveal" href="#order" data-product="Торт" style="--d:80ms">
+        <img src="assets/img/photos/cat-cakes-sm.webp" srcset="assets/img/photos/cat-cakes-sm.webp 800w, assets/img/photos/cat-cakes-lg.webp 1600w" sizes="(min-width: 900px) 25vw, 80vw" alt="Торт с живыми пионами" loading="lazy" decoding="async" width="800" height="1000">
+        <div class="tile__box">
+          <h3>Торты</h3>
+          <div class="tile__more"><div>
+            <p>Детские, свадебные, с живыми цветами. Начинку и декор подберём вместе.</p>
+            <span class="tile__price">85 BYN за 1 кг</span>
+          </div></div>
+        </div>
+      </a>
+      <a class="tile reveal" href="#order" data-product="Трюфели" style="--d:160ms">
+        <img src="assets/img/photos/cat-truffles-sm.webp" srcset="assets/img/photos/cat-truffles-sm.webp 800w, assets/img/photos/cat-truffles-lg.webp 1600w" sizes="(min-width: 900px) 25vw, 80vw" alt="Шоколадные трюфели в какао" loading="lazy" decoding="async" width="800" height="1000">
+        <div class="tile__box">
+          <h3>Трюфели</h3>
+          <div class="tile__more"><div>
+            <p>Конфеты ручной работы, в том числе фирменные с голубым сыром. Можно заказать каждый день.</p>
+            <span class="tile__price">4 BYN за штуку · 12 шт от 48 BYN</span>
+          </div></div>
+        </div>
+      </a>
+      <a class="tile reveal" href="#order" data-product="Зефир" style="--d:240ms">
+        <img src="assets/img/photos/cat-zefir-sm.webp" srcset="assets/img/photos/cat-zefir-sm.webp 800w, assets/img/photos/cat-zefir-lg.webp 1600w" sizes="(min-width: 900px) 25vw, 80vw" alt="Зефирные тюльпаны в коробке" loading="lazy" decoding="async" width="800" height="1000">
+        <div class="tile__box">
+          <h3>Зефир</h3>
+          <div class="tile__more"><div>
+            <p>Зефирные тюльпаны и букеты в шляпных коробках. Подарок, который не завянет.</p>
+            <span class="tile__price">от 40 BYN за коробку</span>
+          </div></div>
+        </div>
+      </a>
+    </div>
+    <p class="swipe-hint" aria-hidden="true">листайте <svg class="i"><use href="#i-arrow"/></svg></p>
+  </section>
+
+  <!-- Фирменное -->
+  <section class="signature-block section section--dark">
+    <div class="container sig__grid">
+      <div class="sig__media reveal">
+        <figure class="sig__frame">
+          <img src="assets/img/photos/signature-truffles-sm.webp" srcset="assets/img/photos/signature-truffles-sm.webp 800w, assets/img/photos/signature-truffles-lg.webp 1600w" sizes="(min-width: 900px) 45vw, 90vw" alt="Трюфели с сыром с голубой плесенью в разрезе" loading="lazy" decoding="async" width="800" height="1000">
+        </figure>
+      </div>
+      <div class="sig__text reveal" style="--d:120ms">
+        <p class="eyebrow">Фирменное</p>
+        <h2 class="h2">Трюфели с&nbsp;сыром с&nbsp;голубой плесенью</h2>
+        <p>Несколько раз в неделю я хожу на рынок «Комаровка» за сыром для этих трюфелей. Пробую каждую головку, даже из одной партии, и выбираю по плесени, соли, текстуре и плотности. В трюфели попадает только лучший.</p>
+        <p>Получается смелое сочетание: тёмный шоколад, горечь какао и солоноватый сыр с благородной плесенью. Для себя или в подарок, чтобы удивить.</p>
+        <p class="sig__note"><svg class="i"><use href="#i-clock"/></svg>Можно заказать каждый день</p>
+        <a class="btn btn--gold" href="#order" data-product="Трюфели">Заказать трюфели</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Торты на заказ -->
+  <section class="cakes section" id="cakes" data-rail-wrap>
+    <div class="container section-head section-head--row reveal">
+      <div>
+        <p class="eyebrow">На ваш праздник</p>
+        <h2 class="h2">Торты на заказ</h2>
+      </div>
+      <div class="rail-nav">
+        <button class="rail-btn" type="button" data-prev aria-label="Назад"><svg class="i"><use href="#i-left"/></svg></button>
+        <button class="rail-btn" type="button" data-next aria-label="Вперёд"><svg class="i"><use href="#i-right"/></svg></button>
+      </div>
+    </div>
+    <div class="rail" data-rail>
+      <figure class="cake">
+        <img src="assets/img/photos/cake-1-sm.webp" srcset="assets/img/photos/cake-1-sm.webp 800w, assets/img/photos/cake-1-lg.webp 1600w" sizes="(min-width: 1080px) 25vw, (min-width: 600px) 42vw, 78vw" alt="Белый торт с объёмным цветком" loading="lazy" decoding="async" width="800" height="1000">
+        <figcaption>Белый с объёмным цветком</figcaption>
+      </figure>
+      <figure class="cake">
+        <img src="assets/img/photos/cake-2-sm.webp" srcset="assets/img/photos/cake-2-sm.webp 800w, assets/img/photos/cake-2-lg.webp 1600w" sizes="(min-width: 1080px) 25vw, (min-width: 600px) 42vw, 78vw" alt="Торт с воздушными лепестками" loading="lazy" decoding="async" width="800" height="1000">
+        <figcaption>Воздушные лепестки</figcaption>
+      </figure>
+      <figure class="cake">
+        <img src="assets/img/photos/cake-3-sm.webp" srcset="assets/img/photos/cake-3-sm.webp 800w, assets/img/photos/cake-3-lg.webp 1600w" sizes="(min-width: 1080px) 25vw, (min-width: 600px) 42vw, 78vw" alt="Двухъярусный торт с клубникой" loading="lazy" decoding="async" width="800" height="1000">
+        <figcaption>Двухъярусный клубничный</figcaption>
+      </figure>
+      <figure class="cake">
+        <img src="assets/img/photos/cake-4-sm.webp" srcset="assets/img/photos/cake-4-sm.webp 800w, assets/img/photos/cake-4-lg.webp 1600w" sizes="(min-width: 1080px) 25vw, (min-width: 600px) 42vw, 78vw" alt="Бирюзовый торт с тропическими цветами" loading="lazy" decoding="async" width="800" height="1000">
+        <figcaption>Тропический с монстерой</figcaption>
+      </figure>
+      <figure class="cake">
+        <img src="assets/img/photos/cake-5-sm.webp" srcset="assets/img/photos/cake-5-sm.webp 800w, assets/img/photos/cake-5-lg.webp 1600w" sizes="(min-width: 1080px) 25vw, (min-width: 600px) 42vw, 78vw" alt="Свадебный торт с белыми розами" loading="lazy" decoding="async" width="800" height="1000">
+        <figcaption>Свадебный с розами</figcaption>
+      </figure>
+      <figure class="cake">
+        <img src="assets/img/photos/cake-6-sm.webp" srcset="assets/img/photos/cake-6-sm.webp 800w, assets/img/photos/cake-6-lg.webp 1600w" sizes="(min-width: 1080px) 25vw, (min-width: 600px) 42vw, 78vw" alt="Свадебный торт с белыми воланами и монограммой" loading="lazy" decoding="async" width="800" height="1000">
+        <figcaption>Свадебный с монограммой</figcaption>
+      </figure>
+      <figure class="cake">
+        <img src="assets/img/photos/cake-7-sm.webp" srcset="assets/img/photos/cake-7-sm.webp 800w, assets/img/photos/cake-7-lg.webp 1600w" sizes="(min-width: 1080px) 25vw, (min-width: 600px) 42vw, 78vw" alt="Трёхъярусный свадебный торт с белыми розами" loading="lazy" decoding="async" width="800" height="1000">
+        <figcaption>Трёхъярусный свадебный</figcaption>
+      </figure>
+      <figure class="cake">
+        <img src="assets/img/photos/cake-8-sm.webp" srcset="assets/img/photos/cake-8-sm.webp 800w, assets/img/photos/cake-8-lg.webp 1600w" sizes="(min-width: 1080px) 25vw, (min-width: 600px) 42vw, 78vw" alt="Белый торт с живыми розами" loading="lazy" decoding="async" width="800" height="1000">
+        <figcaption>Белый с живыми розами</figcaption>
+      </figure>
+    </div>
+    <div class="container">
+      <div class="cakes__panel reveal">
+        <div>
+          <h3 class="cakes__title">Торт под ваш праздник</h3>
+          <p><b>День рождения, свадьба, выпускной или просто повод собраться.</b> Расскажите, сколько будет гостей и какое настроение хочется. Я предложу начинку и декор, а вы выберете. Однажды я сделала торт длиной 90&nbsp;см, так что масштаб не пугает.</p>
+          <ul class="chips">
+            <li>Детские</li><li>Свадебные</li><li>С живыми цветами</li><li>Бенто</li><li>Двухъярусные</li>
+          </ul>
+          <p class="cakes__classic"><b>«Классика»:</b> Наполеон, Киевский, медовик карамельный, птичье молоко.<br><b>Капкейки и трайфлы</b> — 12 BYN за штуку.</p>
+        </div>
+        <div class="cakes__side">
+          <p class="cakes__price">85 BYN <span>за 1 кг</span></p>
+          <p class="cakes__note">Бисквитные торты — от 2,2 кг, «Классика» — от 1,5 кг. Фигурки, цветы, макарон и топперы оплачиваются отдельно. Точный вес и стоимость называю в день выдачи: вес может отличаться на 300–400 г.</p>
+          <p class="cakes__lead"><svg class="i"><use href="#i-clock"/></svg>Заказ за <span class="tbd" title="Уточнить у Вероники">3–5 дней</span></p>
+          <a class="btn btn--dark" href="#order" data-product="Торт">Обсудить торт</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Праздники -->
+  <section class="holidays section section--choc" id="holidays" data-rail-wrap>
+    <div class="container section-head section-head--row reveal">
+      <div>
+        <p class="eyebrow">Праздничные наборы</p>
+        <h2 class="h2">Сладкий повод есть всегда</h2>
+      </div>
+      <div class="rail-nav">
+        <button class="rail-btn" type="button" data-prev aria-label="Назад"><svg class="i"><use href="#i-left"/></svg></button>
+        <button class="rail-btn" type="button" data-next aria-label="Вперёд"><svg class="i"><use href="#i-right"/></svg></button>
+      </div>
+    </div>
+    <div class="rail rail--cards" data-rail>
+      <article class="hcard">
+        <img src="assets/img/photos/holiday-feb14-sm.webp" alt="Коробка-сердце с красными макарон" loading="lazy" decoding="async" width="800" height="1000">
+        <div class="hcard__body"><span class="hcard__date">14 февраля</span><h3>Сердце из макарон</h3><p>Коробка-сердце с лентой. Признание, которое можно съесть.</p></div>
+      </article>
+      <article class="hcard">
+        <img src="assets/img/photos/holiday-mar8-sm.webp" alt="Зефирные тюльпаны" loading="lazy" decoding="async" width="800" height="1000">
+        <div class="hcard__body"><span class="hcard__date">8 марта</span><h3>Зефирные тюльпаны</h3><p>Букет, который не завянет, в шляпной коробке.</p></div>
+      </article>
+      <article class="hcard">
+        <img src="assets/img/photos/holiday-easter-sm.webp" alt="Пасхальный набор макарон" loading="lazy" decoding="async" width="800" height="1000">
+        <div class="hcard__body"><span class="hcard__date">Пасха</span><h3>Весенние макарон</h3><p>Кролики, яйца и яркие вкусы в праздничной коробке.</p></div>
+      </article>
+      <article class="hcard">
+        <img src="assets/img/photos/holiday-sep1-sm.webp" alt="Сладкие наборы к 1 сентября" loading="lazy" decoding="async" width="800" height="1000">
+        <div class="hcard__body"><span class="hcard__date">1 сентября</span><h3>Учителю и классу</h3><p>Наборы к началу учебного года, можно на весь класс.</p></div>
+      </article>
+      <article class="hcard">
+        <img src="assets/img/photos/holiday-mothers-sm.webp" alt="Подарочная коробка ко Дню мамы" loading="lazy" decoding="async" width="800" height="1000">
+        <div class="hcard__body"><span class="hcard__date">День мамы</span><h3>Любимой мамочке</h3><p>Макарон, зефир и открытка в одной коробке.</p></div>
+      </article>
+      <article class="hcard">
+        <img src="assets/img/photos/holiday-newyear-sm.webp" alt="Новогодняя коробка макарон" loading="lazy" decoding="async" width="800" height="1000">
+        <div class="hcard__body"><span class="hcard__date">Новый год</span><h3>Яркие макарон</h3><p>Подарочные коробки с лентой для близких и коллег.</p></div>
+      </article>
+      <article class="hcard">
+        <img src="assets/img/photos/holiday-birthday-sm.webp" alt="Праздничный торт на день рождения" loading="lazy" decoding="async" width="800" height="1000">
+        <div class="hcard__body"><span class="hcard__date">День рождения</span><h3>Торт с пожеланием</h3><p>Торт, трюфели и макарон к вашему празднику.</p></div>
+      </article>
+    </div>
+    <p class="swipe-hint" aria-hidden="true">листайте <svg class="i"><use href="#i-arrow"/></svg></p>
+  </section>
+
+  <!-- Начинки -->
+  <section class="fillings section" id="fillings">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Для тортов</p>
+        <h2 class="h2">Начинки</h2>
+        <p class="lead">Каждый срез — несколько слоёв вкуса. Крем для выравнивания на выбор: сырный или шоколадный ганаш.</p>
+      </div>
+      <h3 class="fillings__sub reveal">Бисквитные <span>от 2,2 кг</span></h3>
+      <div class="fillings__grid">
+        <article class="filling reveal"><div class="slice" style="--a:#FFF4EA;--b:#F1DDB5;--c:#EE9AA5"></div><h3>Клубничный</h3><p>Влажный ванильный бисквит, клубничный мусс, сырный крем.</p></article>
+        <article class="filling reveal" style="--d:80ms"><div class="slice" style="--a:#FFF4EA;--b:#4A2A1E;--c:#9E1B32"></div><h3>Вишнёвый</h3><p>Шоколадный бисквит, вишнёвый мусс и вишнёвый соус, сырный крем.</p></article>
+        <article class="filling reveal" style="--d:160ms"><div class="slice" style="--a:#FFF4EA;--b:#F2E2A4;--c:#E7A0A8"></div><h3>Клубника–базилик</h3><p>Лимонный бисквит, клубничный чизкейк, мусс из базилика, сырный крем.</p></article>
+        <article class="filling reveal"><div class="slice" style="--a:#FFF4EA;--b:#D9C6E3;--c:#3E2A5C"></div><h3>Лаванда–черника</h3><p>Лавандовый бисквит на лавандовом сиропе, черника с цельными ягодами, сырный крем.</p></article>
+        <article class="filling reveal" style="--d:80ms"><div class="slice" style="--a:#C9A07A;--b:#4A2A1E;--c:#F2A93B"></div><h3>Маракуйя–шоколад</h3><p>Бисквит на тёмном шоколаде и миндальной муке, пюре маракуйи, крем на молочном шоколаде.</p></article>
+        <article class="filling reveal" style="--d:160ms"><div class="slice" style="--a:#FFF4EA;--b:#C98B4E;--c:#D9A25A"></div><h3>Морковно-карамельный</h3><p>Морковный бисквит с цедрой апельсина, сливочная карамель, сырный крем.</p></article>
+        <article class="filling reveal"><div class="slice" style="--a:#FFF4EA;--b:#3B2418;--c:#C8873A"></div><h3>Брауни–солёная карамель</h3><p>Влажный шоколадный брауни, солёная карамель, сырный крем.</p></article>
+        <article class="filling reveal" style="--d:80ms"><div class="slice" style="--a:#FFF4EA;--b:#3B2418;--c:#D4A15F"></div><h3>А-ля Сникерс</h3><p>Брауни, арахисовый чизкейк на натуральной пасте, карамель, солёный арахис.</p></article>
+        <article class="filling reveal" style="--d:160ms"><div class="slice" style="--a:#FFF4EA;--b:#3B2418;--c:#7B5BA6"></div><h3>Черника–лимон</h3><p>Шоколадный бисквит, черничный чизкейк, лимонная начинка, сырный крем.</p></article>
+      </div>
+      <h3 class="fillings__sub reveal">«Классика» <span>от 1,5 кг</span></h3>
+      <div class="fillings__grid fillings__grid--classic">
+        <article class="filling filling--classic reveal"><h3>Наполеон</h3><p>Слоёные коржи, заварной крем.</p></article>
+        <article class="filling filling--classic reveal" style="--d:80ms"><h3>Киевский</h3><p>Фундучные коржи, масляный крем.</p></article>
+        <article class="filling filling--classic reveal" style="--d:160ms"><h3>Медовик карамельный</h3><p>Коржи на карамели и мёде, крем из варёной сгущёнки, сметаны и сливок.</p></article>
+        <article class="filling filling--classic reveal" style="--d:240ms"><h3>Птичье молоко</h3><p>Ванильный бисквит, суфле на маскарпоне и итальянской меренге, тёмный шоколад.</p></article>
+      </div>
+      <p class="fillings__note reveal"><svg class="i"><use href="#i-check"/></svg>Если какой-то ингредиент не нравится или на него аллергия — заменю. Главное, чтобы вы и ваши гости насладились вкусом.</p>
+    </div>
+  </section>
+
+  <!-- Как заказать -->
+  <section class="how section section--cream2" id="how">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Всё просто</p>
+        <h2 class="h2">Как заказать</h2>
+      </div>
+      <ol class="steps">
+        <li class="step reveal"><h3>Дата и время</h3><p>Согласуем, к какому дню и часу нужен десерт.</p></li>
+        <li class="step reveal" style="--d:80ms"><h3>Дизайн</h3><p>Выберите дизайн торта: из галереи, Instagram или свою идею.</p></li>
+        <li class="step reveal" style="--d:160ms"><h3>Вкус и вес</h3><p>Подберём начинку и вес под количество гостей.</p></li>
+        <li class="step reveal" style="--d:240ms"><h3>Получение</h3><p>Самовывоз с Кульман, 21б или доставка.</p></li>
+        <li class="step reveal" style="--d:320ms"><h3>Аллергии</h3><p>Предупредите, если на какие-то продукты есть аллергия.</p></li>
+      </ol>
+      <p class="how__extra reveal"><svg class="i"><use href="#i-check"/></svg>К заказу могу добавить открытку, свечку или букет цветов и доставить всё вместе.</p>
+    </div>
+  </section>
+
+  <!-- Заявка -->
+  <section class="order section section--choc" id="order">
+    <div class="container order__in">
+      <div class="section-head center reveal">
+        <p class="eyebrow">Заявка</p>
+        <h2 class="h2 h2--caps">Заказать десерт</h2>
+        <p class="lead lead--dark">Заполните форму, и Вероника свяжется с вами, чтобы уточнить детали. Если удобнее, <a href="https://ig.me/m/nika_cakes_" target="_blank" rel="noopener">напишите сразу в Direct</a>.</p>
+      </div>
+
+      <form class="order-form reveal" id="orderForm" novalidate>
+        <fieldset class="field field--full" data-field="product">
+          <legend class="label">Что хотите заказать</legend>
+          <div class="pills">
+            <label class="pill"><input type="radio" name="product" value="Торт"><span>Торт</span></label>
+            <label class="pill"><input type="radio" name="product" value="Макарон"><span>Макарон</span></label>
+            <label class="pill"><input type="radio" name="product" value="Трюфели"><span>Трюфели</span></label>
+            <label class="pill"><input type="radio" name="product" value="Зефир"><span>Зефир</span></label>
+            <label class="pill"><input type="radio" name="product" value="Праздничный набор"><span>Праздничный набор</span></label>
+          </div>
+          <span class="field__err">Выберите, что заказать</span>
+        </fieldset>
+
+        <label class="field" data-field="date">
+          <span class="label">Дата</span>
+          <input class="input" type="date" name="date" required>
+          <span class="field__err">Выберите дату, не раньше завтрашнего дня</span>
+        </label>
+
+        <label class="field" data-field="guests">
+          <span class="label">На сколько человек</span>
+          <select class="input" name="guests">
+            <option>2–4 человека</option>
+            <option>5–8 человек</option>
+            <option>9–15 человек</option>
+            <option>16 и больше</option>
+          </select>
+        </label>
+
+        <label class="field" data-field="name">
+          <span class="label">Ваше имя</span>
+          <input class="input" type="text" name="name" autocomplete="given-name" placeholder="Как к вам обращаться" required>
+          <span class="field__err">Напишите имя</span>
+        </label>
+
+        <label class="field" data-field="phone">
+          <span class="label">Телефон</span>
+          <input class="input" type="tel" name="phone" inputmode="tel" autocomplete="tel" placeholder="+375 (__) ___-__-__" required>
+          <span class="field__err">Проверьте номер телефона</span>
+        </label>
+
+        <fieldset class="field field--full" data-field="delivery">
+          <legend class="label">Получение</legend>
+          <div class="pills">
+            <label class="pill"><input type="radio" name="delivery" value="Самовывоз" checked><span>Самовывоз</span></label>
+            <label class="pill"><input type="radio" name="delivery" value="Доставка"><span>Доставка по Минску</span></label>
+          </div>
+        </fieldset>
+
+        <label class="field field--full" data-field="comment">
+          <span class="label">Пожелания</span>
+          <textarea class="input" name="comment" rows="3" placeholder="Вкус, декор, надпись, повод. Можно приложить идею в Direct"></textarea>
+        </label>
+
+        <div class="field--full">
+          <button class="btn btn--gold btn--block" type="submit">Отправить заявку</button>
+          <p class="form-note">Демо-версия: форма пока ничего не отправляет.</p>
+        </div>
+      </form>
+
+      <div class="order-success" id="orderSuccess" hidden>
+        <div class="order-success__icon"><svg class="i"><use href="#i-check"/></svg></div>
+        <h3>Спасибо! Заявка принята</h3>
+        <p><span data-summary></span>. Вероника свяжется с вами, чтобы уточнить детали.</p>
+        <div class="order-success__actions">
+          <a class="btn btn--gold" href="https://ig.me/m/nika_cakes_" target="_blank" rel="noopener"><svg class="i"><use href="#i-send"/></svg>Написать в Direct</a>
+          <button class="btn btn--ghost" type="button" data-reset>Новая заявка</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Галерея -->
+  <section class="gallery section" id="gallery">
+    <div class="container">
+      <div class="section-head section-head--row reveal">
+        <div>
+          <p class="eyebrow">Из Instagram</p>
+          <h2 class="h2">@nika_cakes_</h2>
+        </div>
+        <a class="btn btn--line gallery__top-btn" href="https://www.instagram.com/nika_cakes_/" target="_blank" rel="noopener"><svg class="i"><use href="#i-ig"/></svg>Подписаться</a>
+      </div>
+      <div class="mosaic">
+        <button class="mosaic__item is-tall reveal" type="button" data-full="assets/img/photos/gallery-01-lg.webp"><img src="assets/img/photos/gallery-01-sm.webp" alt="Вероника с дочкой готовят вяленые сливы" loading="lazy" decoding="async"><svg class="mosaic__play"><use href="#i-play"/></svg></button>
+        <button class="mosaic__item reveal" type="button" data-full="assets/img/photos/gallery-02-lg.webp"><img src="assets/img/photos/gallery-02-sm.webp" alt="Десерт NIKA CAKES" loading="lazy" decoding="async"></button>
+        <button class="mosaic__item reveal" type="button" data-full="assets/img/photos/gallery-03-lg.webp"><img src="assets/img/photos/gallery-03-sm.webp" alt="Десерт NIKA CAKES" loading="lazy" decoding="async"></button>
+        <button class="mosaic__item is-tall reveal" type="button" data-full="assets/img/photos/gallery-04-lg.webp"><img src="assets/img/photos/gallery-04-sm.webp" alt="Десерт NIKA CAKES" loading="lazy" decoding="async"><svg class="mosaic__play"><use href="#i-play"/></svg></button>
+        <button class="mosaic__item is-wide reveal" type="button" data-full="assets/img/photos/gallery-05-lg.webp"><img src="assets/img/photos/gallery-05-sm.webp" alt="Десерт NIKA CAKES" loading="lazy" decoding="async"></button>
+        <button class="mosaic__item reveal" type="button" data-full="assets/img/photos/gallery-06-lg.webp"><img src="assets/img/photos/gallery-06-sm.webp" alt="Десерт NIKA CAKES" loading="lazy" decoding="async"></button>
+        <button class="mosaic__item is-tall reveal" type="button" data-full="assets/img/photos/gallery-07-lg.webp"><img src="assets/img/photos/gallery-07-sm.webp" alt="Десерт NIKA CAKES" loading="lazy" decoding="async"><svg class="mosaic__play"><use href="#i-play"/></svg></button>
+        <button class="mosaic__item reveal" type="button" data-full="assets/img/photos/gallery-08-lg.webp"><img src="assets/img/photos/gallery-08-sm.webp" alt="Десерт NIKA CAKES" loading="lazy" decoding="async"></button>
+        <button class="mosaic__item reveal" type="button" data-full="assets/img/photos/gallery-09-lg.webp"><img src="assets/img/photos/gallery-09-sm.webp" alt="Десерт NIKA CAKES" loading="lazy" decoding="async"></button>
+        <button class="mosaic__item is-wide reveal" type="button" data-full="assets/img/photos/gallery-10-lg.webp"><img src="assets/img/photos/gallery-10-sm.webp" alt="Десерт NIKA CAKES" loading="lazy" decoding="async"></button>
+        <button class="mosaic__item reveal" type="button" data-full="assets/img/photos/gallery-11-lg.webp"><img src="assets/img/photos/gallery-11-sm.webp" alt="Десерт NIKA CAKES" loading="lazy" decoding="async"></button>
+        <button class="mosaic__item reveal" type="button" data-full="assets/img/photos/gallery-12-lg.webp"><img src="assets/img/photos/gallery-12-sm.webp" alt="Десерт NIKA CAKES" loading="lazy" decoding="async"></button>
+      </div>
+      <div class="center gallery__more">
+        <a class="btn btn--dark" href="https://www.instagram.com/nika_cakes_/" target="_blank" rel="noopener"><svg class="i"><use href="#i-ig"/></svg>Смотреть в Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Отзывы: место под блок -->
+  <section class="reviews section section--cream2">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Отзывы</p>
+        <h2 class="h2">Что говорят гости</h2>
+      </div>
+      <div class="reviews__grid">
+        <div class="review-slot reveal"><p class="review-slot__q">«Здесь будет отзыв клиента»</p><p class="review-slot__n">Возьмём из сообщений, с&nbsp;разрешения автора</p></div>
+        <div class="review-slot reveal" style="--d:100ms"><p class="review-slot__q">«Здесь будет отзыв клиента»</p><p class="review-slot__n">Имя, повод, фото десерта</p></div>
+        <div class="review-slot reveal" style="--d:200ms"><p class="review-slot__q">«Здесь будет отзыв клиента»</p><p class="review-slot__n">Можно скриншоты из Direct</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Доставка, самовывоз, контакты -->
+  <section class="delivery section" id="contacts">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Как забрать</p>
+        <h2 class="h2">Доставка и самовывоз</h2>
+      </div>
+      <div class="delivery__grid">
+        <div class="delivery__cards">
+          <article class="dcard reveal">
+            <span class="dcard__icon"><svg class="i"><use href="#i-bag"/></svg></span>
+            <h3>Самовывоз</h3>
+            <p>Минск, ул. Кульман, 21б. Время согласуем при заказе.</p>
+            <p class="dcard__meta"><svg class="i"><use href="#i-clock"/></svg><span class="tbd" title="Уточнить часы">Ежедневно 10:00–20:00</span></p>
+          </article>
+          <article class="dcard reveal" style="--d:100ms">
+            <span class="dcard__icon"><svg class="i"><use href="#i-truck"/></svg></span>
+            <h3>Доставка</h3>
+            <ul class="dcard__list">
+              <li><b>Моя личная доставка</b> по Минску — 15 BYN</li>
+              <li><b>Яндекс курьером</b> — по тарифам службы</li>
+              <li><b>За город</b> — стоимость рассчитаю индивидуально</li>
+            </ul>
+          </article>
+          <article class="dcard reveal" style="--d:200ms">
+            <span class="dcard__icon"><svg class="i"><use href="#i-clock"/></svg></span>
+            <h3>Как довезти и хранить</h3>
+            <ul class="dcard__list">
+              <li>Торт везите на полу или в багажнике на ровной поверхности, на сиденье нельзя</li>
+              <li>В холодное время выключите обдув на ноги</li>
+              <li>Храните в холодильнике не больше 72 часов, а за 30 минут до подачи достаньте — вкус раскроется лучше</li>
+            </ul>
+          </article>
+        </div>
+        <div class="map reveal" style="--d:150ms">
+          <iframe src="https://yandex.by/map-widget/v1/?text=%D0%9C%D0%B8%D0%BD%D1%81%D0%BA%2C%20%D1%83%D0%BB%D0%B8%D1%86%D0%B0%20%D0%9A%D1%83%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%2C%2021%D0%B1&amp;z=16" title="Карта: Минск, ул. Кульман, 21б" loading="lazy" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="map-links">
+        <a class="btn btn--line btn--sm" href="https://yandex.by/maps/?text=%D0%9C%D0%B8%D0%BD%D1%81%D0%BA%2C%20%D1%83%D0%BB%D0%B8%D1%86%D0%B0%20%D0%9A%D1%83%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%2C%2021%D0%B1" target="_blank" rel="noopener"><svg class="i"><use href="#i-pin"/></svg>Яндекс Карты</a>
+        <a class="btn btn--line btn--sm" href="https://www.google.com/maps/search/?api=1&amp;query=%D0%9C%D0%B8%D0%BD%D1%81%D0%BA%2C%20%D1%83%D0%BB%D0%B8%D1%86%D0%B0%20%D0%9A%D1%83%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%2C%2021%D0%B1" target="_blank" rel="noopener"><svg class="i"><use href="#i-pin"/></svg>Google Maps</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <img class="footer__logo" src="assets/img/logo-cream.png" alt="NIKA CAKES">
+        <p>Десерты ручной работы от кондитера Вероники Бовшис.</p>
+      </div>
+      <div>
+        <h4>Разделы</h4>
+        <ul class="footer__list">
+          <li><a href="#desserts">Десерты</a></li>
+          <li><a href="#cakes">Торты на заказ</a></li>
+          <li><a href="#holidays">Праздники</a></li>
+          <li><a href="#order">Заявка</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Контакты</h4>
+        <ul class="footer__list">
+          <li><a href="tel:+375445769358"><span>+375 (44) 576-93-58</span></a></li>
+          <li>Минск, ул. Кульман, 21б</li>
+          <li><span class="tbd" title="Уточнить часы">Ежедневно 10:00–20:00</span></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Соцсети</h4>
+        <ul class="footer__list">
+          <li><a href="https://www.instagram.com/nika_cakes_/" target="_blank" rel="noopener"><svg class="i"><use href="#i-ig"/></svg>Instagram</a></li>
+          <li><a href="https://www.threads.net/@nika_cakes_" target="_blank" rel="noopener"><svg class="i"><use href="#i-at"/></svg>Threads</a></li>
+          <li><a href="https://ig.me/m/nika_cakes_" target="_blank" rel="noopener"><svg class="i"><use href="#i-send"/></svg>Direct</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© <span data-year>2026</span> NIKA CAKES · Вероника Бовшис</span>
+      <span>Сделано с любовью в Минске</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Нижняя панель на телефоне -->
+<nav class="mbar" aria-label="Быстрые действия">
+  <a class="mbar__btn" href="tel:+375445769358"><svg class="i"><use href="#i-phone"/></svg>Позвонить</a>
+  <a class="mbar__btn" href="https://ig.me/m/nika_cakes_" target="_blank" rel="noopener"><svg class="i"><use href="#i-send"/></svg>Direct</a>
+  <a class="mbar__btn mbar__btn--gold" href="#order">Заказать</a>
+</nav>
+
+<!-- Просмотр фото -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Просмотр фото" hidden>
+  <img class="lightbox__img" alt="">
+  <button class="lightbox__close" type="button" aria-label="Закрыть"><svg class="i"><use href="#i-close"/></svg></button>
+  <button class="lightbox__nav lightbox__prev" type="button" aria-label="Предыдущее фото"><svg class="i"><use href="#i-left"/></svg></button>
+  <button class="lightbox__nav lightbox__next" type="button" aria-label="Следующее фото"><svg class="i"><use href="#i-right"/></svg></button>
+  <p class="lightbox__count"></p>
+</div>
+
+</body>
+</html>
