@@ -58,7 +58,8 @@
 | `gallery-01` … `gallery-12` | галерея «Из Instagram» |
 
 Логотипы — в `assets/img/`: кремовый для тёмного фона, коричневый для светлого,
-`logo-glow.jpg` — светящийся, для заставки.
+на заставке — кремовый `logo-cream.png`, свечение за пламенем рисуется стилями.
+`logo-glow.jpg` (размытое свечение из исходника) больше не используется.
 
 ---
 
@@ -115,7 +116,7 @@ nika-cakes/
     ├── css/styles.css    оформление (цвета — в самом начале)
     ├── js/app.js         анимации, меню, ленты, просмотр фото, форма-демо
     └── img/
-        ├── logo-*.png, mark-*.png, wordmark-*.png, logo-glow.jpg, favicon.png
+        ├── logo-*.png, mark-*.png, wordmark-*.png, favicon.png
         └── photos/       фотографии из Instagram
 ```
 
