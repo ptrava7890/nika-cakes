@@ -24,9 +24,9 @@
     };
     splash.addEventListener('click', finish);
     window.addEventListener('load', function () {
-      setTimeout(finish, Math.max(0, 1400 - (Date.now() - started)));
+      setTimeout(finish, Math.max(0, 2000 - (Date.now() - started)));
     });
-    setTimeout(finish, 3200);
+    setTimeout(finish, 3600);
   } else {
     if (splash) splash.remove();
     ready();
