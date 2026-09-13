@@ -92,15 +92,33 @@ fieldset { border: 0; padding: 0; min-width: 0; }
 .splash { display: none; }
 .js:not(.splash-seen) .splash {
   position: fixed; inset: 0; z-index: 200; display: grid; place-items: center;
-  background: #0B0604; transition: opacity .8s ease, visibility .8s;
+  background: radial-gradient(60% 50% at 50% 50%, #1A100B 0%, #0B0604 70%);
+  transition: opacity .8s ease, visibility .8s;
 }
-.splash__glow { width: min(88vw, 640px); mix-blend-mode: screen; opacity: 0; animation: glowIn 1.5s var(--ease) .1s forwards; }
+/* Буквы остаются резкими: свечение — отдельный слой позади логотипа, с общим центром */
+.splash__logo { position: relative; width: min(64vw, 360px); }
+.splash__logo::before {
+  content: ""; position: absolute; left: 50%; top: 50%; width: 150%; aspect-ratio: 1;
+  background: radial-gradient(circle, rgba(226, 188, 130, .34) 0%, rgba(201, 160, 106, .12) 30%, transparent 62%);
+  opacity: 0; transform: translate(-50%, -50%) scale(.5);
+  animation: splashGlow 1.8s var(--ease) .15s forwards;
+}
+/* Логотип «загорается»: из темноты и лёгкой дымки — в яркий и резкий */
+.splash__img {
+  position: relative; width: 100%; opacity: 0; transform: scale(.94); filter: blur(8px) brightness(.35);
+  animation: splashLight 1.5s var(--ease) .1s forwards;
+}
+@keyframes splashGlow {
+  0% { opacity: 0; transform: translate(-50%, -50%) scale(.5); }
+  60% { opacity: 1; transform: translate(-50%, -50%) scale(1.06); }
+  100% { opacity: .85; transform: translate(-50%, -50%) scale(1); }
+}
+@keyframes splashLight { to { opacity: 1; transform: none; filter: none; } }
 .splash.is-out { opacity: 0; visibility: hidden; }
 .splash__skip {
   position: absolute; left: 50%; bottom: calc(24px + var(--safe-b)); transform: translateX(-50%);
   padding: 12px 18px; font-size: 11px; letter-spacing: .24em; text-transform: uppercase; color: rgba(243, 230, 214, .45);
 }
-@keyframes glowIn { from { opacity: 0; transform: scale(.94); filter: blur(10px) brightness(1); } to { opacity: 1; transform: none; filter: blur(0) brightness(1.7); } }
 
 /* ---------- Шапка ---------- */
 .header { position: fixed; inset: 0 0 auto; z-index: 60; color: var(--on-dark); transition: background .4s, box-shadow .4s; }
